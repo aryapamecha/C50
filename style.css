@@ -1,0 +1,36 @@
+
+p,h2{
+    color:black;
+    text-align: center;
+}
+h1{
+    color:red;
+}
+body{
+    background-color: white;
+}
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description{
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+}
